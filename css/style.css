@@ -1,0 +1,1284 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+.owl-three .owl-nav{
+    height: 0px;
+}
+.owl-three .owl-dots{
+    height: 0px;
+}
+.owl-one .owl-nav.disabled, .owl-three .owl-nav.disabled,.owl-four .owl-nav.disabled{
+    display: block;
+    height: 0px;
+}
+.grow-your-gym .owl-one .owl-nav{
+    height: 0px;
+}
+.grow-your-gym .owl-one .owl-dots{
+    height: 0px;
+}
+.grow-your-gym .owl-three .owl-nav{
+    height: 0px;
+}
+.grow-your-gym .owl-three .owl-dots{
+    height: 0px;
+}
+.grow-your-gym .owl-four .owl-dots{
+    height: 0px;
+}
+.owl-one .owl-prev span, .owl-three .owl-prev span, .owl-four .owl-prev span{
+    display: inline-block;
+    background-image: url(../images/owl-prev.png);
+    width: 52px;
+    height: 52px;
+    font-size: 0px;
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.owl-one .owl-next span, .owl-three .owl-next span, .owl-four .owl-next span{
+    display: inline-block;
+    background-image: url(../images/owl-next.png);
+    width: 52px;
+    height: 52px;
+    font-size: 0px;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.owl-four .flag img{
+    width: auto;
+    margin: auto;
+}
+.grow-your-gym .owl-one, .grow-your-gym .owl-three{
+    position: relative;
+}
+header{
+    border-bottom: 2px solid #bdbdbd;
+    background-color: #ffffff;
+}
+.banner-parent-wrapper{
+    background-color: #fafafb;
+}
+.owl-two .owl-nav{
+    display: none;
+}
+.owl-two .owl-dots{
+    display: none;
+}
+.whatsapp-books.space-bottom-100{
+    padding-bottom: 60px;
+}
+.review-logos{
+    margin-bottom: 60px;
+}
+.banner-section-wrapper{
+    padding: 100px 0px 0px;
+}
+.banner-section-wrapper h1{
+    font-size: 53px;
+    line-height: 67px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    color: #000000;
+}
+.banner-section-wrapper p{
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.col-5th{
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #333333;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px 30px;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.social-icons ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+.header-section-rightside{
+    display: flex;
+    align-items: center;
+}
+.ph-no{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.ph-no i{
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.ph-no div{
+    flex-shrink: 0;
+}
+.btn.header-btn{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    border: 0px;
+    background: #000000 !important;
+    border-radius: 0px;
+    color: #ffffff !important;
+   padding: 28px 30px;
+   margin-left: 20px;
+}
+.header-btn:hover{
+    background-color: #FFDD33;
+}
+.main-footer{
+    background-color: #1C1C1E;
+}
+.footer-links h6{
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.footer-links ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+}
+.footer-links ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.main-footer{
+    padding: 60px 0px;
+}
+.footer-social ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-social ul li{
+    display: inline-block;
+    margin: 0px 12px;
+}
+.footer-social ul li a{
+    color: #ffffff;
+}
+.footer-bottom{
+    border-top: 1px solid #D8DAE2;
+    padding-top: 20px;
+}
+.footer-top{
+    padding-bottom: 100px;
+}
+.footer-social ul li a i{
+    font-size: 30px;
+}
+.footer-social{
+    padding: 30px 0px;
+}
+.copyright{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0px;
+}
+.footer-links.footer-bottom-links ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-links.footer-bottom-links ul li a{
+    font-size: 16px;
+}
+.footer-links.footer-bottom-links{
+    text-align: center;
+}
+.start-your-free-form{
+    margin-top: 30px;
+}
+.start-your-free-form .form-control{
+    border: 1px solid #E0E2E8;
+    height: 46px;
+    width: 290px;
+}
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+.btn{
+    color: #000000;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+.start-your-free-form .btn{
+    height: 46px;
+}
+.banner-image{
+    padding-top: 70px;
+    background-image: url(../images/gloss.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 40px;
+}
+.we-are-excited .flag{
+    text-align: center;
+    margin-top: 10px;
+}
+.we-are-excited .logo{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  text-align: center;
+}
+.we-are-excited h3{
+    color: #1C1C1E;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.we-are-excited{
+    /*box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);*/
+    padding: 60px 0px;
+    background-color: #f0f0f1;
+}
+.we-are-excited h3 span{
+    background-image: url("../images/Vector-83.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 15px;
+}
+.section-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    display: inline-block;
+}
+.section-title h2 span{
+    display: block;
+    text-align: left;
+}
+.space-top-bottom{
+    padding: 100px 0px;
+}
+.eighteen-pixel{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.item-content h6{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.item-content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.item-content{
+    margin-top: 20px;
+}
+.grow-your-gym .owl-one{
+    margin-top: 40px;
+}
+.twenty-five{
+    font-size: 25px;
+    font-weight: 500;
+}
+.icon-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon-title p{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.icon-title-description p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.icon-title-text{
+    margin-bottom: 40px;
+}
+.whatsapp-books.space-top-bottom{
+    margin-top: 0px;
+}
+.reel-section-wrapper .videowrapper video{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.whatsapp-books.space-top-bottom{
+    padding-bottom: 60px;
+    padding-top: 0px;
+}
+.we-fit-in-section h2 span{
+    text-align: right;
+}
+.business-icon{
+    width: 94px;
+    height: 94px;
+    background-image: url("../images/gym.png");
+    background-position: bottom;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.business-box{
+    border: 1px solid #FFE6A6;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+.business-box:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.business-box:hover .business-icon{
+    background-position: top;
+}
+.business-box h6{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.we-fit-in-section .eighteen-pixel{
+    margin-bottom: 40px;
+}
+.owl-three .fitness-studio .business-icon{
+    background-image: url("../images/fit.png");
+}
+.owl-three .dance-studio .business-icon{
+    background-image: url("../images/dance.png");
+}
+.owl-three .cross-fit .business-icon{
+    background-image: url("../images/cross.png");
+}
+.owl-three .yoga .business-icon{
+    background-image: url("../images/Yoga.png");
+}
+.color-grey{
+    background-color: #fafafb;
+}
+.dropdown-wrapper {
+    border: 2px solid #B3B3B3;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.dropdown-wrapper.dropdown-wrapper-one{
+    padding: 59px 0px 0px 40px;
+}
+.dropdown-wrapper.dropdown-wrapper-two{
+    padding: 59px 40px 0px 0px;
+}
+.accordion-button:focus{
+    border: 0px;
+    box-shadow: none;
+}
+.section-with-dropdown .accordion-item{
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.section-with-dropdown .accordion-button{
+    border-radius: 0px;
+    background: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    padding: 30px 0px;
+}
+.section-with-dropdown .accordion-body{
+    font-size: 18px;
+    line-height: 28px;
+    color: #555A6A;
+    padding: 20px 0px;
+}
+.dropdown-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.absolute-right-image{
+    width: 100%;
+}
+.absolute-left-image{
+    width: 100%;
+}
+.dropdown-image{
+    display: flex;
+    align-items: flex-end;
+}
+.space-top{
+    padding-top: 100px;
+}
+.section-title.graphical-title h2 span{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: end;
+}
+.haos-to-control-section .section-title.graphical-title{
+    margin-bottom: 30px;
+}
+.haos-to-control-section .eighteen-pixel{
+    margin-bottom: 30px;
+}
+.space-bottom-30{
+    margin-bottom: 30px;
+}
+.space-bottom-100{
+    padding-bottom: 100px;
+}
+.haos-to-control-section .dropdown-wrapper{
+    border: 1px solid #F1F2F5;
+}
+.content-box{
+    border: 1px solid #EAEAEA;
+    background-color: #FFFFFF;
+    padding: 40px 30px;
+    border-radius: 6px;
+}
+.content-box p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #555A6A;
+    font-size: 18px;
+    line-height: 30px;
+}
+.content-box h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.content-box i{
+    display: block;
+    margin-bottom: 40px;
+}
+.space-top-40{
+    margin-top: 40px;
+}
+.btn.btn-style{
+    background-color: #000000;
+}
+.btn.btn-black{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 40px;
+}
+.data-migration-section{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 62px 0px;
+}
+.data-migration-section h5{
+    color: #1C1C1E;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+}
+.data-migration-section p{
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.what-our-clients-say{
+    width: 1179px;
+}
+.navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
+    display: flex;
+}
+.navbar-expand-md .navbar-nav li ul {
+    padding-left: 0px;
+}
+.navbar-expand-md .navbar-nav li ul li {
+    list-style: none;
+    width: 33%;
+    margin-bottom: 30px;
+    float: left;
+    min-height: 150px;
+}
+.menulink{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+.menulink .linkicon{
+    flex-shrink: 0;
+}
+.linkicon{
+    margin-right: 10px;
+}
+.menulink-text{
+    padding-right: 35px;
+}
+.nav-item .menulink-text h6{
+    font-weight: 700;
+    font-size: 18px;
+}
+.nav-item p{
+    font-size: 16px;
+    color: #000;
+}
+.navbar-expand-md .navbar-nav li .submenu-wrapper{
+    position: absolute;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 40px 40px 0px;
+    box-shadow: 0px 0px 10px 0px #f2f2f2f2;
+    width: 1180px;
+    display: flex;
+    margin-left: -100px;
+    display: none;
+    z-index: 20;
+}
+
+.modal-content{
+    position: relative;
+    border: 0px;
+    width: 339px;
+}
+.modal-header{
+    padding: 0px;
+    border: 0px;
+}
+.modal-body{
+    padding: 0px;
+    line-height: 0px;
+    border: 0px;
+}
+.btn-close{
+    position: absolute;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+    z-index: 20;
+    right: 0;
+    border-radius: 100px;
+}
+header .spaceleft-right{
+    padding-right: 0px;
+}
+header  .container-fluid{
+    padding-right: 0px;
+}
+.extensive-overview-section .row{
+    align-items: stretch;
+}
+.extensive-overview-section .content-box{
+    height: 100%;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    text-align: center;
+}
+.extensive-overview-section .col-lg-3.col-md-6{
+    margin-bottom: 30px;
+}
+.what-our-clients.space-top-bottom{
+    padding-top: 70px;
+}
+.contact-numbers{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-numbers .ph-no{
+    padding: 8px 0px;
+}
+.modal-header .btn-close{
+   border: 2px solid #000;
+}
+.mobile-fixed-buttons{
+    display: none;
+}
+.mobile-fixed-buttons a{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+button:focus:not(:focus-visible){
+    box-shadow: none;
+}
+#ModalTogglefive .modal-dialog-centered{
+    justify-content: center;
+}
+.we-are-excited-logos-mobile{
+    display: none;
+}
+.icon-title i{
+    flex-shrink: 0;
+}
+.btn.btn-primary img{
+    margin-left: 5px;
+}
+.banner-rating ul{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+.banner-rating ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.banner-rating ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.banner-section-wrapper p{
+    margin: 0px;
+}
+.banner-rating{
+    display: flex;
+    align-items: center;
+}
+.banner-rating{
+    margin-top: 40px;
+}
+.banner-rating ul li a{
+    font-size: 22px;
+}
+.banner-section-wrapper p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 41px;
+}
+.banner-section-wrapper li{
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.banner-section-wrapper ul{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.banner-section-wrapper .banner-rating ul{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.banner-section-wrapper .banner-rating p{
+    margin-bottom: 0px;
+}
+.banner-section-wrapper .banner-rating p i{
+    position: relative;
+    top: -4px;
+}
+.grey-bar-text h6{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.grey-bar-text p{
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.easy-gym-advantage ul li{
+    margin-bottom: 15px;
+}
+.easy-gym-advantage .brown{
+    background-color: #FFEBC9;
+}
+.easy-gym-advantage .grey{
+    background-color: #EAEAEA;
+}
+@media only screen and (min-width:1400px){
+
+    .container-fluid{
+        max-width: 1920px;
+    }
+    .owl-one .owl-prev span, .owl-three .owl-prev span{
+        left: -70px;
+    }
+    .owl-one .owl-next span, .owl-three .owl-next span{
+        right: -70px;
+    }
+}
+@media only screen and (max-width:1400px){
+
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        width: 1000px;
+    }
+    .icon-title p br{
+        display: none;
+    }
+    .spaceleft-right{
+        padding: 0px 20px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 15px;
+    }
+    .btn.header-btn{
+        font-size: 16px;
+        padding: 28px 10px;
+        margin-left: 0px;
+    }
+    .ph-no{
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .social-icons ul li{
+        margin: 0px 5px;
+    }
+    .twenty-five{
+        font-size: 18px;
+    }
+    .icon-title p{
+        font-size: 20px;
+    }
+    .icon-title-description p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section-title h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .item-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+    header .spaceleft-right{
+        padding-left: 0px;
+    }
+    .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
+        flex-direction: column;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        width: 820px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 15px;
+        font-size: 14px;
+    }
+    .ph-no{
+        font-size: 14px;
+    }
+    .btn.header-btn{
+        font-size: 14px;
+    }
+    .navbar .social-icons{
+        display: none;
+    }
+    .banner-section-wrapper h1{
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .we-are-excited h3{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .whatsapp-books .section-title h2 br{
+        display: none;
+    }
+    .twenty-five{
+        font-size: 18px;
+    }
+    .icon-title p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .row.row-parent{
+        flex-direction: column;
+    }
+    .row.row-parent > .col-lg-7{
+        width: 100%;
+    }
+    .row.row-parent{
+        flex-direction: column-reverse;
+    }
+    .row.row-parent .col-lg-5{
+        margin-bottom: 40px;
+    }
+    .whatsapp-books.space-bottom-100{
+        padding-bottom: 50px;
+    }
+    .business-box h6{
+        font-size: 20px;
+    }
+    .section-with-dropdown .section-title h2 br{
+        display: none;
+    }
+    .section-title h2{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .section-with-dropdown .accordion-button{
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    .section-with-dropdown .accordion-body{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .eighteen-pixel{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-links ul li a{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 16px;
+    }
+    .footer-links h6{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:1024px){
+
+}
+@media only screen and (max-width:991px){
+
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+            width: 670px;
+            padding: 40px 20px 0px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 6px;
+    }
+    .navbar-brand{
+        width: 150px;
+    }
+    .btn.header-btn{
+        display: none;
+    }
+    .banner-section-wrapper h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .d-flex.justify-content-center.start-your-free-form .row{
+        justify-content: center !important;
+    }
+    .we-are-excited h3{
+        text-align: center;
+    }
+    .section-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .twenty-five{
+        font-size: 18px;
+    }
+    .space-top-bottom{
+        padding: 60px 0px;
+    }
+    .whatsapp-books.space-bottom-100{
+        padding-bottom: 20px;
+    }
+    .eighteen-pixel br{
+        display: none;
+    }
+    .dropdown-wrapper.dropdown-wrapper-one{
+        padding: 30px 0px 0px 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-one .dropdown-image{
+        margin-top: 40px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-one .accordion{
+        padding-right: 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two{
+        padding: 30px 20px 0px 0px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two .accordion{
+        padding-left: 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two .section-title{
+        padding-left: 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two .col-lg-6{
+        margin-top: 40px;
+    }
+    .space-top{
+        padding-top: 60px;
+    }
+    .extensive-overview-section .col-lg-3.col-md-6{
+        margin-bottom: 30px;
+    }
+    .what-our-clients-say{
+        width: auto;
+    }
+    .data-migration-section h5{
+        font-size: 30px;
+    }
+    .data-migration-section p{
+        font-size: 18px;
+    }
+    .footer-social{
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-bottom-logo.text-end{
+        text-align: center !important;
+        margin-top: 30px;
+    }
+    .col-5th {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .footer-links{
+        margin-bottom: 50px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two .col-lg-6.dropdown-image{
+        margin-top: 0px;
+    }
+    .we-are-excited h3{
+        margin-bottom: 40px;
+    }
+    .we-are-excited .col-5th{
+        margin-bottom: 40px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-one .row{
+        flex-direction: column-reverse;
+    }
+    .dropdown-wrapper.dropdown-wrapper-one .dropdown-image{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:767px){
+
+    .we-are-excited-logos-mobile{
+        display: block;
+    }
+    .we-are-excited .col-5th{
+        display: none;
+    }
+    .mobile-fixed-buttons{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        z-index: 50;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        padding: 40px 20px 0px;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        display: flex;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+    }
+    .navbar-expand-md .navbar-nav li ul li{
+        min-height: auto;
+        width: 100%;
+    }
+    .menulink-text{
+        padding-right: 0px;
+    }
+    .header-section-rightside{
+        display: none;
+    }
+    .navbar-toggler{
+        background-color: #212529;
+        color: #000000;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+        background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        border: 0px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        font-size: 0px;
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/menu.png");
+    }
+    header .container-fluid{
+        padding-right: 12px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .we-are-excited h3{
+        margin-bottom: 30px;
+    }
+    .we-are-excited .col-5th{
+        margin-bottom: 30px;
+    }
+    .we-are-excited{
+        padding-bottom: 30px;
+    }
+    .section-title h2 span{
+        text-align: center;
+    }
+    .section-title h2{
+        text-align: center;
+    }
+    .whatsapp-books .twenty-five{
+        text-align: center;
+    }
+    .section-with-dropdown .section-title h2 {
+        font-size: 25px;
+    }
+    .section-with-dropdown .accordion-button{
+        font-size: 18px;
+    }
+    .data-migration-section .col-md-8 h5{
+        text-align: center;
+    }
+    .data-migration-section .col-md-8 p{
+        text-align: center;
+    }
+    .data-migration-section .col-md-4{
+        margin-top: 20px;
+    }
+    .what-our-clients-say .col-lg-6.col-md-6.text-center{
+        margin-bottom: 30px;
+    }
+    .section-title h2 br{
+        display: none;
+    }
+    .dropdown-wrapper .section-title h2{
+        text-align: left;
+    }
+    .section-title.graphical-title h2 span{
+        align-items: flex-start;
+    }
+    .business-box h6 {
+        font-size: 18px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 16px;
+        font-weight: 700;
+        color: #000000;
+    }
+    .nav-item p{
+        font-size: 14px;
+    }
+    .nav-item .menulink-text h6{
+        font-size: 16px;
+    }
+    .content-box h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .content-box p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .what-our-clients .space-bottom-30{
+        margin-bottom: 0px;
+    }
+    .what-our-clients.space-top-bottom{
+        padding-top: 30px;
+    }
+    .owl-one .owl-prev span, .owl-three .owl-prev span{
+        width: 42px;
+        height: 42px;
+        background-size: contain;
+    }
+    .owl-one .owl-next span, .owl-three .owl-next span{
+        width: 42px;
+        height: 42px;
+        background-size: contain;
+    }
+    .banner-section-wrapper{
+        flex-direction: column-reverse;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .banner-image{
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (max-width:575px){
+
+    .we-are-excited .flag{
+        margin-top: 0px;
+    }
+    .banner-section-wrapper p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .content-box{
+        padding: 30px 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-one{
+        padding: 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two{
+        padding: 20px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two .accordion{
+        padding-left: 0px;
+    }
+    .dropdown-wrapper.dropdown-wrapper-two .section-title{
+        padding-left: 0px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .banner-section-wrapper h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .review-logos {
+        margin-bottom: 30px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .banner-image {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .we-are-excited h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .item-content h6{
+        font-size: 20px;
+    }
+    .we-are-excited h3 span{
+        display: block;
+    }
+    .icon-title{
+        flex-direction: column;
+    }
+    .icon-title p{
+        margin-left: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .icon-title-description p{
+        text-align: center;
+    }
+    .footer-links h6{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .footer-links.footer-bottom-links ul li a{
+        font-size: 14px;
+    }
+    .footer-links{
+        margin-bottom: 10px;
+    }
+    .copyright{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .footer-social ul li a i{
+        font-size: 18px;
+    }
+    .footer-social{
+        padding: 20px 0px;
+    }
+    .col-5th{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer-links ul li a{
+        font-size: 14px;
+    }
+    .footer-links ul li{
+        margin-bottom: 10px;
+    }
+    .footer-link{
+        margin-bottom: 40px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .data-migration-section .col-md-8 h5{
+        font-size: 25px;
+    }
+    .data-migration-section p{
+        font-size: 16px;
+    }
+    .spaceleft-right.footer-top .col-5th{
+        margin-bottom: 30px;
+    }
+    .twenty-five {
+        font-size: 16px;
+    }
+}
