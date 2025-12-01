@@ -553,8 +553,8 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 }
 .menulink{
     display: flex;
-    text-decoration: none;
-    color: #000000;
+    text-decoration: none !important;
+    color: #000000 !important;
 }
 .menulink .linkicon{
     flex-shrink: 0;
@@ -750,6 +750,117 @@ button:focus:not(:focus-visible){
 .easy-gym-advantage .grey{
     background-color: #EAEAEA;
 }
+.easy-gym-advantage .why-gyms-switch{
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.easy-gym-advantage .gym-advantage{
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-100{
+    width: 100%;
+}
+.grow-your-gym.space-top-bottom .section-title h2{
+    margin-bottom: 40px;
+}
+.item-img img{
+    width: 100%;
+}
+.demo-modal-form .modal-box .modal-left{
+    background-image: url("../images/modal-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 40%;
+    padding: 25px;
+}
+.demo-modal-form .modal-box .modal-right{
+    flex-basis: 60%;
+    padding: 70px 25px;
+}
+.demo-modal-form .modal-box .modal-right .right-heading{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.demo-modal-form .modal-box{
+    display: flex;
+}
+/*
+.demo-modal-form .modal-box{
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+.modal-content.register-modal{
+    width: 100%;
+}
+.modal-right .form-label{
+    line-height: 20px;
+}
+.modal-right .btn{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.btn:hover{
+    background: linear-gradient(to bottom,  #e6c700 0%,#fee966 100%);
+    color: #000000;
+}
+.main-footer .spaceleft-right.footer-top{
+    padding-bottom: 100px;
+}
+.we-are-excited .owl-carousel .owl-item img{
+    width: auto;
+}
+.we-are-excited .owl-nav{
+    height: 0px;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    color: #000000;
+}
+.ma5menu__container{
+    background-color: #000000;
+}
+.ma5menu__panel{
+    background-color: #000000;
+    scrollbar-color: #2e2e2e #000000;
+}
+.ma5menu__alert{
+    background-image: linear-gradient(to bottom, rgba(14, 101, 182, 0) 0%, #000000 50%);
+}
+.ma5menu__head{
+    border-bottom: 1px solid #ffffff;
+}
+.ma5menu__logo{
+    background-image:url("../images/ma5menu__logo.png");
+}
+.ma5menu__footer a {
+    color: #ffc107;
+}
+.ma5menu__toggle{
+    background-color: #000000;
+}
+.ma5menu__toggle:hover {
+    color: #fff;
+    background-color: #ffc107;
+}
+.ma5menu__toggle{
+    display: none;
+}
+.ma5menu--active:before{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -764,6 +875,15 @@ button:focus:not(:focus-visible){
 }
 @media only screen and (max-width:1400px){
 
+    .banner-section-wrapper p{
+        font-size: 20px;
+    }
+    .banner-section-wrapper li{
+        font-size: 20px;
+    }
+    .banner-rating ul li a{
+        font-size: 20px;
+    }
     .navbar-expand-md .navbar-nav li .submenu-wrapper{
         width: 1000px;
     }
@@ -898,6 +1018,35 @@ button:focus:not(:focus-visible){
     .footer-links h6{
         font-size: 20px;
     }
+    .banner-section-wrapper h1{
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .banner-section-wrapper p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .banner-section-wrapper li{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .banner-rating ul li a {
+        font-size: 16px;
+    }
+    .banner-section-wrapper .banner-rating p{
+        font-size: 16px;
+    }
+    .grey-bar-text h6{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .grey-bar-text h6 br{
+        display: none;
+    }
+    .grey-bar-text p{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width:1024px){
 
@@ -1014,9 +1163,26 @@ button:focus:not(:focus-visible){
         margin-top: 0px;
         margin-bottom: 40px;
     }
+    .btn.btn-black{
+        padding: 10px;
+        font-size: 16px;
+    }
+    .banner-section-wrapper.space-top-bottom .row{
+        flex-direction: column-reverse;
+    }
+    .grey-bar-text h6{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .grey-bar-text p{
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width:767px){
 
+    .ma5menu__toggle{
+        display: block;
+    }
     .we-are-excited-logos-mobile{
         display: block;
     }
@@ -1163,15 +1329,49 @@ button:focus:not(:focus-visible){
     .banner-section-wrapper{
         flex-direction: column-reverse;
         display: flex;
-        padding-top: 0px;
         padding-bottom: 60px;
     }
     .banner-image{
         padding-bottom: 0px;
     }
+    .we-are-excited{
+        padding: 40px 0px;
+    }
+    .grey-bar-text h6{
+        text-align: center;
+        font-size: 16px;
+    }
+    .grey-bar-text p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .we-are-excited .owl-carousel .owl-item img{
+        margin: auto auto 20px;
+    }
+    .easy-gym-advantage .why-gyms-switch{
+        padding: 60px 20px;
+    }
+    .easy-gym-advantage .gym-advantage{
+        padding: 60px 20px;
+    }
+    .main-footer .spaceleft-right.footer-top{
+        padding-bottom: 60px;
+    }
 }
 @media only screen and (max-width:575px){
 
+    .banner-section-wrapper li{
+        font-size: 16px;
+    }
+    .easy-gym-advantage .why-gyms-switch{
+        padding: 40px 10px;
+    }
+    .easy-gym-advantage .gym-advantage{
+        padding: 40px 10px;
+    }
+    .main-footer .spaceleft-right.footer-top{
+        padding-bottom: 40px;
+    }
     .we-are-excited .flag{
         margin-top: 0px;
     }

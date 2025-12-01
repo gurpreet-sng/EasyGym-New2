@@ -12,19 +12,123 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+    <!-- Site Stylesheets -->
+    <link href="./css/site.min.css" rel="stylesheet" type="text/css">
+
+    <!-- ma5menu -->
+    <link href="./css/ma5-menu.min.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="color-grey">
+
+<div class="container">
+    <!-- mobile menu toggle button end -->
+    <div style="display: none;">
+
+        <!-- source for mobile menu start -->
+        <ul class="site-menu">
+            <li>
+                <a href="#">Features</a>
+                <ul>
+                    <li>
+                        <a href="#">Marketing</a>
+                        <ul>
+                            <li>
+                                <a href="#">Boost your sales & bring more cash flow with marketing tools that convert.</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Properties Management</a>
+                        <ul>
+                            <li>
+                                <a href="#">Transfer staff, products and analyse performance at one dashboard.</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Appointment  Management</a>
+                        <ul>
+                            <li>
+                                <a href="#">Convert your insta followers into your clients with free web portal</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Gift &amp; membership Cards</a>
+                        <ul>
+                            <li>
+                                <a href="#">Everyone loves plastic cards! Make your client feel VIP with elite membership cards</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Employee Management</a>
+                        <ul>
+                            <li>
+                                <a href="#">Make your employees more efficient and productive with smart management</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Billing &amp; Payment</a>
+                        <ul>
+                            <li>
+                                <a href="#">Fast, Reliable and easy to use billing software</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Reports &amp; Graphs</a>
+                        <ul>
+                            <li>
+                                <a href="#">Analysing your business performance &amp; sales made easy</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Inventory Management</a>
+                        <ul>
+                            <li>
+                                <a href="#">Reduce wastage of products &amp; stay ahead in Inventory &amp; Stock Management</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Our Tutorials</a>
+            </li>
+            <li>
+                <a href="#">FAQs</a>
+            </li>
+        </ul>
+        <!-- source for mobile menu end -->
+
+        <!-- source for mobile menu footer start -->
+        <div id="ma5menu-tools" class="ma5menu__tools">
+            footer <a href="index-page.html">content</a> here
+        </div>
+        <!-- source for mobile menu footer end -->
+    </div>
+</div>
+
     <header>
         <div class="spaceleft-right">
             <nav class="navbar navbar-expand-md navbar-dark py-0">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
+                    </button>-->
+                    <!-- mobile menu toggle button start -->
+                    <button class="ma5menu__toggle" type="button">
+                        <span class="ma5menu__icon-toggle"></span> <span class="ma5menu__sr-only">Menu</span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav mb-2 mb-md-0">
@@ -126,11 +230,11 @@
                             <i><img src="images/ind.png"></i>
                             <div>+91 86992 88803</div>
                         </a>
-                        <a href="tel:16042005518" class="ph-no">
+                        <a href="tel:17163404934" class="ph-no">
                             <i><img src="images/canada.png"></i>
-                            <div>+1604 200-5518</div>
+                            <div>+17163404934</div>
                         </a>
-                        <a class="btn header-btn" href="#" role="button">Book Your Free Demo</a>
+                        <a class="btn header-btn" href="" data-bs-target="#ModalTogglesix" data-bs-toggle="modal">Book Your Free Demo</a>
                     </div>
                 </div>
             </nav>
@@ -140,7 +244,7 @@
         <div class="banner-section-wrapper space-top-bottom">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <h1>Fill Your Gym. Automate<br> Everything Else.</h1>
                         <p>The all-in-one gym management, WhatsApp automation & biometric access software trusted by 3000+ fitness businesses across India & GCC.</p>
                         <ul>
@@ -162,7 +266,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <img src="images/ban.png" class="img-fluid">
                     </div>
                 </div>
@@ -172,34 +276,130 @@
     <section class="we-are-excited">
         <div class="spaceleft-right">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row align-items-center">
-                            <div class="col-md-5">
-                                <div class="text-center"><img src="images/spa.png" class="img-fluid"></div>
+                <div class="owl-one owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/spa.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Collections improved by<br> *32% in 90 days”</h6>
+                                            <p>-Space, Mauritius</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-7">
-                                <div class="grey-bar-text">
-                                    <h6>“Collections improved by<br> *32% in 90 days”</h6>
-                                    <p>-Space, Mauritius</p>
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/body.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Our team saved *2 extra staff salaries* every month.”</h6>
+                                            <p>-Body Mechanics, Qatar</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="row align-items-center">
-                            <div class="col-md-5">
-                                <div class="text-center"><img src="images/body.png" class="img-fluid"></div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/spa.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Collections improved by<br> *32% in 90 days”</h6>
+                                            <p>-Space, Mauritius</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-7">
-                                <div class="grey-bar-text">
-                                    <h6>“Our team saved *2 extra staff salaries* every month.”</h6>
-                                    <p>-Body Mechanics, Qatar</p>
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/body.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Our team saved *2 extra staff salaries* every month.”</h6>
+                                            <p>-Body Mechanics, Qatar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/spa.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Collections improved by<br> *32% in 90 days”</h6>
+                                            <p>-Space, Mauritius</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/body.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Our team saved *2 extra staff salaries* every month.”</h6>
+                                            <p>-Body Mechanics, Qatar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/spa.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Collections improved by<br> *32% in 90 days”</h6>
+                                            <p>-Space, Mauritius</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="text-center"><img src="images/body.png" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="grey-bar-text">
+                                            <h6>“Our team saved *2 extra staff salaries* every month.”</h6>
+                                            <p>-Body Mechanics, Qatar</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
+
             </div>
         </div>
     </section>
@@ -313,9 +513,9 @@
     <section class="easy-gym-advantage space-top">
         <div class="spaceleft-right">
             <div class="container-fluid">
-                <div class="row row-parent">
+                <div class="row">
                    <div class="col-lg-6 brown">
-                       <div class="section-title space-top-bottom">
+                       <div class="section-title why-gyms-switch">
                            <h2 class="mb-4">Why Gyms Switch To Easy Gym Software</h2>
                            <p class="twenty-five">The Problem with Traditional Tools</p>
                            <ul>
@@ -326,10 +526,10 @@
                            </ul>
                        </div>
                    </div> 
-                   <div class="col-lg-6 grey">
-                       <div class="section-title space-top-bottom">
+                   <div class="col-lg-6 grey gym-advantage">
+                       <div class="section-title">
                            <h2 class="text-center">The Easy Gym Advantage</h2>
-                           <div class="mt-4"><img src="images/table.png" class="img-fluid"></div>
+                           <div class="mt-4"><img src="images/table.png" class="img-100"></div>
                        </div>
                    </div>
                 </div>
@@ -387,8 +587,6 @@
             </div>
         </div>
     </section>
-   
-
 
 
 
@@ -633,6 +831,56 @@
   </div>
 </div>
 
+<!-- Modal 6 -->
+<div class="modal fade demo-modal-form" id="ModalTogglesix" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content register-modal">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-box">
+            <div class="modal-left"></div>
+            <div class="modal-right">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Full Name*</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Phone Number*</label>
+                        <input type="tel" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Business Name*</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email*</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Submit</button>
+                    <!--
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col">
+                                <label class="form-label">Business Name*</label>
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <label class="form-label">Email*</label>
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
@@ -647,6 +895,7 @@
                     loop:true,
                     margin:20,
                     nav:true,
+                    dots:false,
                     autoplay:true,
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
@@ -655,10 +904,10 @@
                             items:1
                         },
                         991:{
-                            items:3
+                            items:1
                         },
                         1199:{
-                            items:4
+                            items:1
                         }
                     }
                 });
@@ -747,6 +996,21 @@
                 });
             });
         </script>
+
+        <script>
+            $(document).ready(function () {
+                ma5menu({
+                    menu: '.site-menu',
+                    activeClass: 'active',
+                    footer: '#ma5menu-tools',
+                    position: 'left',
+                    closeOnBodyClick: true
+                });
+            });
+        </script>
+
+        <script src="./js/ma5-menu.min.js"></script>
+        
 
 
     </footer>
