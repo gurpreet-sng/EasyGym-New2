@@ -1211,6 +1211,9 @@ button:focus:not(:focus-visible){
 }
 @media only screen and (max-width:767px){
 
+    #ModalTogglesix{
+        display: none !important;
+    }
     .grey-bar-text h6{
         font-size: 14px;
         line-height: 22px;
@@ -1397,6 +1400,10 @@ button:focus:not(:focus-visible){
 }
 @media only screen and (max-width:575px){
 
+    .footer-bottom-logo.text-end{
+        width: 200px;
+        margin: 20px auto;
+    }
     .banner-section-wrapper li{
         font-size: 16px;
     }
