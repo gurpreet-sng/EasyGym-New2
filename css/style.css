@@ -714,6 +714,7 @@ button:focus:not(:focus-visible){
     font-size: 16px;
     margin-bottom: 10px;
     list-style: none;
+    display: flex;
 }
 .banner-section-wrapper ul{
     margin: 0px;
@@ -861,6 +862,14 @@ button:focus:not(:focus-visible){
 .ma5menu--active:before{
     background-color: rgba(0, 0, 0, 0.5);
 }
+.modal-backdrop.show{
+    background-color: #000000;
+}
+.banner-section-wrapper li i{
+    display: inline-block;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -876,9 +885,6 @@ button:focus:not(:focus-visible){
 @media only screen and (max-width:1400px){
 
     .banner-section-wrapper p{
-        font-size: 20px;
-    }
-    .banner-section-wrapper li{
         font-size: 20px;
     }
     .banner-rating ul li a{
@@ -1177,9 +1183,41 @@ button:focus:not(:focus-visible){
     .grey-bar-text p{
         font-size: 18px;
     }
+    .grey-bar-text h6{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .grey-bar-text p{
+        font-size: 16px;
+    }
+    .easy-gym-advantage .why-gyms-switch{
+        padding: 60px 40px;
+    }
+    .easy-gym-advantage .gym-advantage{
+        padding: 60px 40px;
+    }
+    .easy-gym-advantage .why-gyms-switch ul{
+        margin-bottom: 0px;
+    }
+    .banner-section-wrapper li{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .banner-section-wrapper p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
 }
 @media only screen and (max-width:767px){
 
+    .grey-bar-text h6{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .grey-bar-text p{
+        font-size: 14px;
+    }
     .ma5menu__toggle{
         display: block;
     }
@@ -1257,6 +1295,7 @@ button:focus:not(:focus-visible){
     }
     .section-title h2{
         text-align: center;
+        width: 100%;
     }
     .whatsapp-books .twenty-five{
         text-align: center;
@@ -1339,11 +1378,9 @@ button:focus:not(:focus-visible){
     }
     .grey-bar-text h6{
         text-align: center;
-        font-size: 16px;
     }
     .grey-bar-text p{
         text-align: center;
-        font-size: 16px;
     }
     .we-are-excited .owl-carousel .owl-item img{
         margin: auto auto 20px;
@@ -1364,7 +1401,7 @@ button:focus:not(:focus-visible){
         font-size: 16px;
     }
     .easy-gym-advantage .why-gyms-switch{
-        padding: 40px 10px;
+        padding: 40px 0px;
     }
     .easy-gym-advantage .gym-advantage{
         padding: 40px 10px;
