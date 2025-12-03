@@ -669,9 +669,23 @@ header  .container-fluid{
 .mobile-fixed-buttons{
     display: none;
 }
+/*
 .mobile-fixed-buttons a{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
-    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%);
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}*/
+
+.mobile-fixed-buttons a {
+    background: linear-gradient(90deg, #e6c700, #ffffff, #e6c700);
+    background-size: 200% 200%;
+    animation: gradientFlash 2s linear infinite;
     padding: 10px 0px;
     text-align: center;
     text-decoration: none;
@@ -681,6 +695,25 @@ header  .container-fluid{
     font-weight: 500;
     display: block;
 }
+.mobile-fixed-buttons a.white {
+    background: linear-gradient(90deg, #000000, #ffffff, #000000);
+    animation: gradientFlash 2s linear infinite;
+    background-size: 200% 200%;
+}
+
+/* Animation */
+@keyframes gradientFlash {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 button:focus:not(:focus-visible){
     box-shadow: none;
 }
@@ -799,6 +832,7 @@ button:focus:not(:focus-visible){
     background-size: cover;
     flex-basis: 40%;
     padding: 25px;
+    background-position: center;
 }
 .demo-modal-form .modal-box .modal-right{
     flex-basis: 60%;
@@ -1339,6 +1373,12 @@ button:focus:not(:focus-visible){
     }
     .navbar-expand-md .navbar-nav .nav-link{
         line-height: 20px;
+    }
+    .demo-modal-form .modal-box .modal-left{
+        flex-basis: 50%;
+    }
+    .demo-modal-form .modal-box .modal-right{
+        flex-basis: 50%;
     }
 }
 @media only screen and (max-width:767px){
