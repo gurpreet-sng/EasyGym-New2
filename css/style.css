@@ -1535,6 +1535,10 @@ button:focus:not(:focus-visible){
 }
 @media only screen and (max-width:575px){
 
+    .banner-rating{
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .footer-bottom-logo.text-end{
         width: 200px;
         margin: 20px auto;
@@ -1543,10 +1547,10 @@ button:focus:not(:focus-visible){
         font-size: 16px;
     }
     .easy-gym-advantage .why-gyms-switch{
-        padding: 40px 0px;
+        padding: 40px 20px;
     }
     .easy-gym-advantage .gym-advantage{
-        padding: 40px 10px;
+        padding: 40px 20px;
     }
     .main-footer .spaceleft-right.footer-top{
         padding-bottom: 40px;
