@@ -4,6 +4,9 @@ body{
     font-family: "Poppins", sans-serif;
     color: #000000;
 }
+.navbar-expand-md .navbar-nav .nav-link:focus{
+    color: #000000;
+}
 .owl-three .owl-nav{
     height: 0px;
 }
