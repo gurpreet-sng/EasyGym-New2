@@ -193,7 +193,7 @@ header{
 }
 .footer-social ul li{
     display: inline-block;
-    margin: 0px 12px;
+    margin: 0px 15px 0px 0px;
 }
 .footer-social ul li a{
     color: #ffffff;
@@ -870,6 +870,85 @@ button:focus:not(:focus-visible){
     margin-right: 8px;
     flex-shrink: 0;
 }
+
+.compare-table table {
+  width: 590px;
+  border-collapse: collapse;
+  text-align: left;
+  overflow: hidden;
+}
+
+.compare-table thead tr {
+  background: #f8d738; /* Yellow header */
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 16px;
+}
+
+.compare-table th{
+    font-weight: 700;
+}
+
+.compare-table tbody tr:nth-child(even) {
+  background: #ffffff; /* Light beige rows */
+}
+
+.compare-table tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+/* Status Colors */
+.cross {
+  color: #ff3b3b;
+  font-weight: 700;
+}
+
+.compare-table tbody td:first-child{
+  background: #fff7e6;
+  font-weight: 600; /* optional */
+}
+/* Apply background only to first cell of each row */
+.compare-table tbody td:first-child{
+  background: #fff7e6;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .compare-table table,
+  .compare-table thead,
+  .compare-table tbody,
+  .compare-table th,
+  .compare-table td,
+  .compare-table tr {
+    display: block;
+  }
+
+  .compare-table thead {
+    display: none;
+  }
+
+  .compare-table td {
+    padding: 12px;
+    border: none;
+    position: relative;
+  }
+
+  .compare-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -934,6 +1013,9 @@ button:focus:not(:focus-visible){
     .item-content p{
         font-size: 14px;
         line-height: 24px;
+    }
+    .compare-table{
+        overflow-x: scroll;
     }
 }
 @media only screen and (max-width:1199px){
@@ -1053,6 +1135,16 @@ button:focus:not(:focus-visible){
     .grey-bar-text p{
         font-size: 20px;
     }
+    .easy-gym-advantage .gym-advantage{
+        padding: 60px 40px;
+    }
+    .easy-gym-advantage .why-gyms-switch{
+        padding: 60px 40px;
+    }
+    .footer-links.footer-bottom-links ul li{
+        margin: 0px 10px;
+    }
+   
 }
 @media only screen and (max-width:1024px){
 
