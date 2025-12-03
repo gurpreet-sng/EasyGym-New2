@@ -1343,6 +1343,9 @@ button:focus:not(:focus-visible){
 }
 @media only screen and (max-width:767px){
 
+    .compare-table table{
+        width: auto;
+    }
     #ModalTogglesix{
         display: none !important;
     }
