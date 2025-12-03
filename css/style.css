@@ -403,7 +403,9 @@ header{
 }
 .business-box:hover{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
-background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-decoration: none;
+    color: #000000;
 }
 .business-box:hover .business-icon{
     background-position: top;
