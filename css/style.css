@@ -1598,7 +1598,7 @@ button:focus:not(:focus-visible){
         padding: 40px 20px;
     }
     .main-footer .spaceleft-right.footer-top{
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
     .we-are-excited .flag{
         margin-top: 0px;
